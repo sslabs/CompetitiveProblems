@@ -35,7 +35,7 @@ fun <T> dijkstra(graph: Graph<T>, start: T): Map<T, T?> {
     while (S != graph.vertices) {
         val v: T = delta
             .filter { !S.contains(it.key) }
-            .minBy { it.value }!!
+            .minByOrNull { it.value }!!
             .key
 
         graph.edges.getValue(v).minus(S).forEach { neighbor ->
