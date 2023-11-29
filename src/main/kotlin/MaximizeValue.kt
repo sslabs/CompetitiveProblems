@@ -22,22 +22,5 @@ class MaximizeValue {
         }
 
         return list.toTypedArray()
-//        val sortedInput = input.toList().toTypedArray()
-//        sortedInput.sort()
-//        val size = sortedInput.size
-//
-//        if (size < 3) return sortedInput
-//
-//        sortedInput[0] = sortedInput[2].also { sortedInput[2] = sortedInput[0] }
-//
-//        if (size > 5) {
-//            if (size % 2 == 0) {
-//                sortedInput[1] = sortedInput[size - 2].also { sortedInput[size - 2] = sortedInput[1] }
-//            } else {
-//                sortedInput[1] = sortedInput[size - 1].also { sortedInput[size - 1] = sortedInput[1] }
-//            }
-//        }
-//
-//        return sortedInput
     }
 }
